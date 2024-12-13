@@ -8,3 +8,5 @@ DDD 아키텍처
 - lombok
 - redis
 - jpa
+
+- jira test
