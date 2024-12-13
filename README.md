@@ -10,3 +10,4 @@ DDD 아키텍처
 - jpa
 
 - jira test
+- jira test
