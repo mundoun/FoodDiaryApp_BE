@@ -5,7 +5,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": -607.9858,
-    "scrollLeft": -132,
+    "scrollLeft": -131,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
@@ -1324,7 +1324,7 @@
         "comment": "섭취량",
         "dataType": "FLOAT",
         "default": "",
-        "options": 0,
+        "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 73,
@@ -1333,7 +1333,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1734671705899,
+          "updateAt": 1734337718212,
           "createAt": 1734337705728
         }
       },
@@ -3865,7 +3865,7 @@
       {
         "name": 1734337709853,
         "dataType": 1734337712714,
-        "options(notNull)": 1734671705898,
+        "options(notNull)": 1734337713334,
         "comment": 1734337718211
       }
     ],
