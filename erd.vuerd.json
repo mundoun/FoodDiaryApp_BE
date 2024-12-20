@@ -4,14 +4,14 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -570,
+    "scrollTop": -607.9858,
+    "scrollLeft": -131,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
     "databaseName": "",
     "canvasType": "ERD",
-    "language": 1,
+    "language": 8,
     "tableNameCase": 4,
     "columnNameCase": 2,
     "bracketType": 1,
@@ -450,7 +450,7 @@
       },
       "eVKM4uB4DnEy1kBt6MloT": {
         "id": "eVKM4uB4DnEy1kBt6MloT",
-        "name": "user_goal",
+        "name": "user_target",
         "comment": "사용자 목표 테이블",
         "columnIds": [
           "MgTe3dr1q-gkJ-ZJ5VfTg",
@@ -486,12 +486,12 @@
           "x": 46,
           "y": 656.4176,
           "zIndex": 401,
-          "widthName": 60,
+          "widthName": 67,
           "widthComment": 92,
           "color": ""
         },
         "meta": {
-          "updateAt": 1734667577275,
+          "updateAt": 1734670200359,
           "createAt": 1734408749566
         }
       }
@@ -2580,60 +2580,60 @@
       "wZer7R_FnCwjquad6aL9A": {
         "id": "wZer7R_FnCwjquad6aL9A",
         "tableId": "eVKM4uB4DnEy1kBt6MloT",
-        "name": "goal_start_date",
+        "name": "target_start_date",
         "comment": "목표 시작일",
         "dataType": "DATE",
         "default": "",
         "options": 0,
         "ui": {
           "keys": 0,
-          "widthName": 91,
+          "widthName": 101,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1734667407021,
+          "updateAt": 1734670207872,
           "createAt": 1734409011343
         }
       },
       "SoBciQE0-8uo8FZcY4Qwt": {
         "id": "SoBciQE0-8uo8FZcY4Qwt",
         "tableId": "eVKM4uB4DnEy1kBt6MloT",
-        "name": "goal_end_date",
+        "name": "target_end_date",
         "comment": "목표 종료일",
         "dataType": "DATE",
         "default": "",
         "options": 0,
         "ui": {
           "keys": 0,
-          "widthName": 86,
+          "widthName": 96,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1734667406585,
+          "updateAt": 1734670212777,
           "createAt": 1734409033179
         }
       },
       "maqx-VEqhkqTEgjzF08M5": {
         "id": "maqx-VEqhkqTEgjzF08M5",
         "tableId": "eVKM4uB4DnEy1kBt6MloT",
-        "name": "goal_status",
+        "name": "target_status",
         "comment": "목표 상태(진행중, 성공, 실패)",
         "dataType": "ENUM",
         "default": "",
         "options": 0,
         "ui": {
           "keys": 0,
-          "widthName": 68,
+          "widthName": 78,
           "widthComment": 143,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1734667405950,
+          "updateAt": 1734670218193,
           "createAt": 1734409045571
         }
       },
@@ -4549,7 +4549,7 @@
       1734408749565,
       -1,
       {
-        "name": 1734408756436,
+        "name": 1734670200358,
         "comment": 1734408764128
       }
     ],
@@ -4665,7 +4665,7 @@
       1734409011342,
       -1,
       {
-        "name": 1734409026867,
+        "name": 1734670207871,
         "dataType": 1734409028758,
         "options(notNull)": 1734667407021,
         "comment": 1734409032462
@@ -4676,7 +4676,7 @@
       1734409033178,
       -1,
       {
-        "name": 1734409037986,
+        "name": 1734670212776,
         "dataType": 1734409040428,
         "options(notNull)": 1734667406584,
         "comment": 1734409045172
@@ -4687,7 +4687,7 @@
       1734409045570,
       -1,
       {
-        "name": 1734409054535,
+        "name": 1734670218192,
         "dataType": 1734409058375,
         "options(notNull)": 1734667405949,
         "comment": 1734667399469
